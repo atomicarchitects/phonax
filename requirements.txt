@@ -1,0 +1,17 @@
+numpy
+jax
+e3nn_jax
+jraph
+tqdm
+dm-haiku
+ase
+matscipy
+roundmantissa
+spglib
+pymatgen
+optax
+matplotlib
+pandas
+pyyaml
+gradio
+unique_names_generator
