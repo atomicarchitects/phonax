@@ -26,7 +26,7 @@ The following steps will guid you through the installation for the phonax librar
 
 
 
-## Tutorials
+## Tutorials and scripts
 
 ### Mass and spring mechanical model for phonon vibrations
 
@@ -36,15 +36,18 @@ The following steps will guid you through the installation for the phonax librar
 
 ### Molecules
 
-
-## Scripts
-
-### Gradio phonon prediction interface
+### Gradio phonax prediction interface
 
 
+To launch this gradio web interface for using phonax, run the follwing command in the download folder:
 
+    ```bash
+    python launch_gradio_service.py
+    ``` 
 
-
+A local URL will be generated at http://0.0.0.0:7860 which can be opened in any web browser.
+In this gradio web interface, one can simply upload a structural file in cif format, and choose the prediction setting (select the fine-tuned model for PBEsol predictions, otherwise PBE based predictions).
+The phonon band structure and the (projected) phonon density of state will be computed.
 
 ## References
 
