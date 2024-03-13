@@ -11,8 +11,8 @@ del version_dict
 setup(
     name="phonax",
     version=version,
-    description="Phonax is an open-source code for predicting and training with second derivative Hessians of the E(3) equivariant neural network energy model ",
-    download_url="https://github.com/mariogeiger/phonax",
+    description="Phonax is an open-source code for predicting and training with second derivative Hessians of the E(3) equivariant neural network energy model",
+    download_url="https://github.com/atomicarchitects/phonax",
     author="Shiang Fang, Mario Geiger, Joseph Checkelsky, Tess Smidt",
     python_requires=">=3.9",
     packages=find_packages(include=["phonax", "phonax.*"]),
