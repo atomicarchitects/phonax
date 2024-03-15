@@ -44,7 +44,7 @@ To launch this gradio web interface for using phonax, run the follwing command i
 python launch_gradio_service.py
 ``` 
 
-A local URL will be generated at http://0.0.0.0:7860 which can be opened in any web browser.
+A default local URL will be generated at http://0.0.0.0:7860 which can be opened in any web browser.
 In this gradio web interface, one can simply upload a structural file in cif format, and choose the prediction setting (select the fine-tuned model for PBEsol predictions, otherwise PBE based predictions).
 The phonon band structure and the (projected) phonon density of state will be computed.
 
