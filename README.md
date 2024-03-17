@@ -1,34 +1,33 @@
 # Phonax
 
-Library to train jax models with phonon data.
+Phonax is a JAX framework to use E(3)-equivariant neural network for predicting vibrational and phonon modes of molecules and periodic crystals.
+Alternatively, Phonax also enables the utilization of the second-order derivative Hessians or the vibrational spectrum as eigenvalues to fine-tune the underlying energy models.
 
 
 ## Quick Start
 
-The following steps will guid you through the installation for the phonax library and the tests for tutorial notebooks.
+The following steps will guide you through the installation for the phonax library and the tests with tutorial notebooks.
 
-1. In a conda env with JAX / CUDA available clone and download this phonax repository.
+1. In a conda environment with JAX / CUDA available, clone and download this phonax repository.
 
-2. Download the pre-trained model weights and the example datasets.
-    ```bash
-    bash xxxx download_script
-    ```
-
-3. In the downloaded directory run:
+2. In the downloaded directory run:
     ```bash
     pip install -e .
     ```
-4. Install the additional libraries from github repositories:
+3. Install the additional libraries from github repositories:
     ```bash
     pip install -r requirements_extra.txt
     ```
+4. [Download](https://figshare.com/s/66bf63d6b5ff42638184) the pre-trained model weights and the datasets, and uncompress the file at the folder with the tutorial notebooks.
 
-
-
+    ```bash
+    tar zxvf phonax-download.tar.gz
+    ```
 
 ## Tutorials and scripts
 
-### Mass and spring mechanical model for phonon vibrations
+### Classical mass and spring mechanical model for phonon vibrations [Tutorial](Tutorial_mass_spring_phonon_model.ipynb)
+A classical mass and spring model can be used to give intuitions for the vibrational phonon modes. With the simple energy functional form (energy stored in the mechanical springs), this tutorial shows the main architecture and usage of the phonax in deriving the second derivative Hessians.
 
 
 ### Periodic crystalline solids
