@@ -26,32 +26,38 @@ The following steps will guide you through the installation for the phonax libra
 
 ## Tutorials and scripts
 
-### Classical mass and spring mechanical model for phonon vibrations [Tutorial](Tutorial_mass_spring_phonon_model.ipynb)
-A classical mass and spring model can be used to give intuitions for the vibrational phonon modes. With the simple energy functional form (energy stored in the mechanical springs), this tutorial shows the main architecture and usage of the phonax in deriving the second derivative Hessians.
+1. Classical mass and spring mechanical model for phonon vibrations [Tutorial](Tutorial_mass_spring_phonon_model.ipynb)
+    A classical mass and spring model can be used to give intuitions for the vibrational phonon modes. With the simple energy functional form (energy stored in the mechanical springs), this tutorial shows the main architecture and usage of the phonax in deriving the second derivative Hessians.
 
+2. Periodic crystalline solids phonon predictions with pre-trained energy models [Tutorial](Tutorial_phonon_with_pretrain_model.ipynb)
+    To showcase the phonon band predictions for general crystalline solids, we provide several pre-trained energy models (NqeuIP and MACE, with PBE and PBEsol) that cant be used to derive the phonon properties, given a crystal structure file (vasp format).
 
-### Periodic crystalline solids
+3. Train a new energy model for making phonon predictions [Tutorial](Tutorial_new_model_training.ipynb)
+    For specific material applications, one can train new energy models that are tailored to these materials by training energy and force data generated for the relevant material types. With a converged energy model, one can make better phonon predictions for these applications. To examine the equilibrium condition for the given crystal structure, one can [check](Tutorial_model_force_check.ipynb) the atomic forces, which should be vanishing for a meaningful phonon prediction.
 
+4. IR / Raman optical spectroscopy activities for vibrational states [Tutorial](Tutorial_CH4_molecule_IR_Raman_symmetry.ipynb)
+    Besides making vibrational mode energy predictions, phonax can also be used to analyze the vibrational state symmetry properties and their activities under IR / Raman optical spectroscopy probes from the symmetry selection rules.
 
-### Molecules
+5. Hessian training for molecules [Tutorial](Tutorial_molecular_hessian_training.ipynb)
+   In this notebook, we demonstrate how to improve and fine-tune the energy model by augmented training with molecular Hessians or the vibrational spectrum (eigenvalues of the dynamical matrix from hessians)
 
-### Gradio phonax prediction interface
+6. Hessian training for crystals [Tutorial](Tutorial_crystal_hessian_training.ipynb)
+   Similarily, the Hessian training can also be used for the periodic crystals to improve the energy model and foce predictions.   
 
-
-To launch this gradio web interface for using phonax, run the follwing command in the download folder:
-```bash
-python launch_gradio_service.py
-``` 
-
-A default local URL will be generated at http://0.0.0.0:7860 which can be opened in any web browser.
-In this gradio web interface, one can simply upload a structural file in cif format, and choose the prediction setting (select the fine-tuned model for PBEsol predictions, otherwise PBE based predictions).
-The phonon band structure and the (projected) phonon density of state will be computed.
+7. Gradio phonax prediction interface
+   To launch this gradio web interface for using phonax, run the follwing command in the download folder:
+   ```bash
+   python launch_gradio_service.py
+   ``` 
+   A default local URL will be generated at http://0.0.0.0:7860 which can be opened in any web browser.
+   In this gradio web interface, one can simply upload a structural file in cif format, and choose the prediction setting (select the fine-tuned model for PBEsol predictions, otherwise PBE based predictions).
+   The phonon band structure and the (projected) phonon density of state will be computed.
 
 ## References
 
 1. [NeurIPS 2023 AI4Mat workshop](https://openreview.net/forum?id=xxyHjer00Y)
 
-2. [arXiv](https://arxiv.org/)
+%2. [arXiv](https://arxiv.org/)
 
 ## Citation
 
