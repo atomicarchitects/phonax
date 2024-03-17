@@ -60,6 +60,10 @@ The following steps will guide you through the installation for the phonax libra
    In this gradio web interface, one can simply upload a structural file in cif format, and choose the prediction setting (select the fine-tuned model for PBEsol predictions, otherwise PBE based predictions).
    The phonon band structure and the (projected) phonon density of state will be computed.
 
+## Models for generalized energy potential with electric fields and tensorial physical quantity predictions for dipole-dipole interactions that correct long-wavelength phonon modes
+   Please check out the [GitHub repo](https://github.com/shiangfang/e3nn-models)
+
+
 ## References
 
 1. [e3nn: Euclidean Neural Networks](https://arxiv.org/abs/2207.09453)
