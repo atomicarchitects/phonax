@@ -62,9 +62,18 @@ The following steps will guide you through the installation for the phonax libra
 
 ## References
 
-1. [NeurIPS 2023 AI4Mat workshop](https://openreview.net/forum?id=xxyHjer00Y)
+1. [e3nn: Euclidean Neural Networks](https://arxiv.org/abs/2207.09453)
 
+2. [NequIP: E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://www.nature.com/articles/s41467-022-29939-5)
+
+3. [MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields](https://arxiv.org/abs/2206.07697), [The Design Space of E(3)-Equivariant Atom-Centered Interatomic Potentials](https://arxiv.org/abs/2205.06643)
+
+4. [JAX M.D. A Framework for Differentiable Physics](https://papers.nips.cc/paper/2020/file/83d3d4b6c9579515e1679aca8cbc8033-Paper.pdf)
+
+5. [PoSym: A python library to analyze the symmetry of theoretical chemistry objects](https://zenodo.org/records/7261326)
 
 ## Citation
+
+1. [NeurIPS 2023 AI4Mat workshop](https://openreview.net/forum?id=xxyHjer00Y)
 
 
