@@ -27,9 +27,11 @@ The following steps will guide you through the installation for the phonax libra
 ## Tutorials and scripts
 
 1. Classical mass and spring mechanical model for phonon vibrations [Tutorial](Tutorial_mass_spring_phonon_model.ipynb)
+
     A classical mass and spring model can be used to give intuitions for the vibrational phonon modes. With the simple energy functional form (energy stored in the mechanical springs), this tutorial shows the main architecture and usage of the phonax in deriving the second derivative Hessians.
 
 2. Periodic crystalline solids phonon predictions with pre-trained energy models [Tutorial](Tutorial_phonon_with_pretrain_model.ipynb)
+
     To showcase the phonon band predictions for general crystalline solids, we provide several pre-trained energy models (NqeuIP and MACE, with PBE and PBEsol) that cant be used to derive the phonon properties, given a crystal structure file (vasp format).
 
 3. Train a new energy model for making phonon predictions [Tutorial](Tutorial_new_model_training.ipynb)
