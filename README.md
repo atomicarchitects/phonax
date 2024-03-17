@@ -29,6 +29,7 @@ The following steps will guide you through the installation for the phonax libra
 1. Classical mass and spring mechanical model for phonon vibrations [Tutorial](Tutorial_mass_spring_phonon_model.ipynb)
 
     A classical mass and spring model can be used to give intuitions for the vibrational phonon modes. With the simple energy functional form (energy stored in the mechanical springs), this tutorial shows the main architecture and usage of the phonax in deriving the second derivative Hessians.
+    As an extension, we also give a [prototype phonax interface with PyTorch](Phonax_simple_cubic_PyTorch.ipynb), since many neural network models in the literature are written with PyTorch library. 
 
 2. Periodic crystalline solids phonon predictions with pre-trained energy models [Tutorial](Tutorial_phonon_with_pretrain_model.ipynb)
 
