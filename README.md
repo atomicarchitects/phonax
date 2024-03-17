@@ -64,7 +64,6 @@ The following steps will guide you through the installation for the phonax libra
 
 1. [NeurIPS 2023 AI4Mat workshop](https://openreview.net/forum?id=xxyHjer00Y)
 
-%2. [arXiv](https://arxiv.org/)
 
 ## Citation
 
