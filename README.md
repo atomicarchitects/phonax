@@ -22,7 +22,7 @@ The following steps will guide you through the installation for the phonax libra
     ```bash
     pip install -r requirements_extra.txt
     ```
-4. [Download](https://figshare.com/s/66bf63d6b5ff42638184) the pre-trained model weights and the datasets, and uncompress the file at the folder with the tutorial notebooks.
+4. [Download](http://doi.org/10.6084/m9.figshare.25424617) the pre-trained model weights and the datasets, and uncompress the file at the folder with the tutorial notebooks.
 
     ```bash
     tar zxvf phonax-download.tar.gz
