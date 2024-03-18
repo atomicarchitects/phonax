@@ -16,7 +16,7 @@ setup(
     author="Shiang Fang, Mario Geiger, Joseph Checkelsky, Tess Smidt",
     python_requires=">=3.9",
     packages=find_packages(include=["phonax", "phonax.*"]),
-    package_data={'':['*.json','*.pkl','*.yaml']}
+    package_data={'':['*.json','*.pkl','*.yaml']},
     include_package_data=True,
     install_requires=[
         "numpy",

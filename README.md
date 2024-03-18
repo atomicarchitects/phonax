@@ -9,6 +9,10 @@ Alternatively, Phonax also enables the utilization of the second-order derivativ
 The following steps will guide you through the installation for the phonax library and the tests with tutorial notebooks.
 
 1. In a conda environment with JAX / CUDA available, clone and download this phonax repository.
+    ```bash
+    git clone https://github.com/atomicarchitects/phonax.git
+    cd phonax
+    ```
 
 2. In the downloaded directory run:
     ```bash
